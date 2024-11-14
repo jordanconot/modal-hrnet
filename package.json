@@ -1,0 +1,27 @@
+{
+  "name": "demo-module-test-hrnet",
+  "version": "0.3.0",
+  "description": "module to test module creation",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "jordan10967",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
