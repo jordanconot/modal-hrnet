@@ -35,9 +35,9 @@ npm install react@18.3.1 react-dom@18.3.1
 
 The Modal HRnet module lets you easily display a customisable modal window for messages such as confirmations. The modal supports the following customisations:
 
-- **Text: Display your own message.**
-- **Background colour: adjusts the background of the modal window.**
-- **Button colour: customise the colour of the close button.**
+- **Text** : Display your own message.
+- **Background colour** : adjusts the background of the modal window.
+- **Button colour** : customise the colour of the close button.
 
 ## 💻 How to Use
 
