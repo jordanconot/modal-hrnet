@@ -7,7 +7,7 @@ A simple, lightweight React package for displaying a customisable modal, ideal f
 Before using this package, make sure that your environment meets the following requirements:
 
 - **React** : 18.3.1
-- **React-DOm** : 18.3.1
+- **React-DOM** : 18.3.1
 - **Node.js** : >= 16.0.0
 -**Text Editor** : [Visual Studio Code](https://code.visualstudio.com/) (recommended)
 
@@ -20,23 +20,24 @@ Make sure you have these versions installed before using this package.
 Install the package in your React project using npm or yarn :
 
 ### Using npm:
-
+```bash
 npm install demo-module-test-hrnet
-
+```
 ### Using yarn:
-
+```bash
 yarn add install demo-module-test-hrnet
-
+```
 If the versions of React or React-DOM differ from version 18.3.1, make sure you install the correct versions:
-
+```bash
 npm install react@18.3.1 react-dom@18.3.1
-
+```
 ## 📝 General Description
 
 The Modal HRnet module lets you easily display a customisable modal window for messages such as confirmations. The modal supports the following customisations:
--Text: Display your own message.
--Background colour: adjusts the background of the modal window.
--Button colour: customise the colour of the close button.
+
+- **Text: Display your own message.**
+- **Background colour: adjusts the background of the modal window.**
+- **Button colour: customise the colour of the close button.**
 
 ## 💻 How to Use
 
