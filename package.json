@@ -1,7 +1,7 @@
 {
   "name": "demo-module-test-hrnet",
   "version": "0.3.2",
-  "description": "module to test module creation",
+  "description": "A React package that displays a customisable modal (text, background colour, button colour) when a button is clicked, ideal for confirmations like Employee Created!",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
