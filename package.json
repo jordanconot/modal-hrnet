@@ -1,6 +1,6 @@
 {
   "name": "demo-module-test-hrnet",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "module to test module creation",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
