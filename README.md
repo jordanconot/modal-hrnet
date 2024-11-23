@@ -1,6 +1,6 @@
 # Modal HRnet
 
-A simple, lightweight React package for displaying a customisable modal, ideal for confirmation messages like ‘Employee Created!
+A simple, lightweight React package compatible with TypeScript for displaying a customisable modal, ideal for confirmation messages like ‘Employee Created!
 
 ## 📰 Requirements
 
@@ -14,6 +14,15 @@ Before using this package, make sure that your environment meets the following r
 Make sure you have these versions installed before using this package.
 
 ---
+
+## 🧰 TypeScript Support
+
+This package is fully compatible with TypeScript and includes `.d.ts` type definitions for a better development experience.
+
+### Key Features:
+- **Optional but supported for projects using TypeScript.**
+- **Includes autocompletion and type checking in IDEs.**
+- **Improves type safety for accessories such as `isOpen`, `onClose`, etc.**
 
 ## 🚀 Installation
 
@@ -46,7 +55,7 @@ Below is a basic example of how to integrate and use the Modal HRnet package in 
 ### Example Code
 
 ```jsx
-import {useState} from "react";
+import { useState } from "react";
 import Modal from "demo-module-test-hrnet";
 
 function App() {
@@ -58,6 +67,34 @@ function App() {
     return (
       <div>
         <button onClick={openModal}>Save</button>
+        <Modal
+          isOpen={isModalOpen}
+          onClose={closeModal}
+          text="Employee Created!"
+          backgroundColor="#FFF"
+          buttonColor="#000"
+        />
+      </div>
+    );
+}
+
+export default App;
+```
+
+### Example Code with TypeScript
+
+```tsx
+import React, { useState } from "react";
+import Modal from "demo-module-test-hrnet";
+
+const App: React.FC = () => {
+  const [isModalOpen, setIsModalOpen] = useState<booelan>(false);
+
+    const closeModal = (): void => {setIsModalOpen(false)};
+
+    return (
+      <div>
+        <button onClick={() => setItModalOpen(true)}>Save</button>
         <Modal
           isOpen={isModalOpen}
           onClose={closeModal}
