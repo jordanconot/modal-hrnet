@@ -1,6 +1,6 @@
 # Modal HRnet
 
-A simple, lightweight React package compatible with TypeScript for displaying a customisable modal, ideal for confirmation messages like ‘Employee Created!
+A simple, lightweight React package compatible with TypeScript for displaying a customisable modal.
 
 ## 📚 Table of Contents
 - [Requirements](#-requirements)
