@@ -2,6 +2,16 @@
 
 A simple, lightweight React package compatible with TypeScript for displaying a customisable modal, ideal for confirmation messages like ‘Employee Created!
 
+## 📚 Table of Contents
+- [Requirements](#-requirements)
+- [TypeScript Support](#-typescript-support)
+- [Installation](#-installation)
+- [General Description](#-general-description)
+- [How to Use](#-how-to-use)
+- [Props and Options](#-props-and-options)
+
+---
+
 ## 📰 Requirements
 
 Before using this package, make sure that your environment meets the following requirements:
@@ -9,7 +19,7 @@ Before using this package, make sure that your environment meets the following r
 - **React** : 18.3.1
 - **React-DOM** : 18.3.1
 - **Node.js** : >= 16.0.0
--**Text Editor** : [Visual Studio Code](https://code.visualstudio.com/) (recommended)
+- **Text Editor** : [Visual Studio Code](https://code.visualstudio.com/) (recommended)
 
 Make sure you have these versions installed before using this package.
 
@@ -24,6 +34,8 @@ This package is fully compatible with TypeScript and includes `.d.ts` type defin
 - **Includes autocompletion and type checking in IDEs.**
 - **Improves type safety for accessories such as `isOpen`, `onClose`, etc.**
 
+---
+
 ## 🚀 Installation
 
 Install the package in your React project using npm or yarn :
@@ -34,7 +46,7 @@ npm install demo-module-test-hrnet
 ```
 ### Using yarn:
 ```bash
-yarn add install demo-module-test-hrnet
+yarn add demo-module-test-hrnet
 ```
 If the versions of React or React-DOM differ from version 18.3.1, make sure you install the correct versions:
 ```bash
@@ -66,7 +78,7 @@ function App() {
 
     return (
       <div>
-        <button onClick={openModal}>Save</button>
+        <button onClick={openModal}>Open Modal</button>
         <Modal
           isOpen={isModalOpen}
           onClose={closeModal}
@@ -88,13 +100,13 @@ import React, { useState } from "react";
 import Modal from "demo-module-test-hrnet";
 
 const App: React.FC = () => {
-  const [isModalOpen, setIsModalOpen] = useState<booelan>(false);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
     const closeModal = (): void => {setIsModalOpen(false)};
 
     return (
       <div>
-        <button onClick={() => setItModalOpen(true)}>Save</button>
+        <button onClick={() => setIsModalOpen(true)}>Open Modal</button>
         <Modal
           isOpen={isModalOpen}
           onClose={closeModal}
