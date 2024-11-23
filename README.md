@@ -47,7 +47,7 @@ Below is a basic example of how to integrate and use the Modal HRnet package in 
 
 ```jsx
 import {useState} from "react";
-import Modal from "demo-module-hrnet";
+import Modal from "demo-module-test-hrnet";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
